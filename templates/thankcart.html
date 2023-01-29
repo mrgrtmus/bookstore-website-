@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>BookStore</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="static/style.css">
+  </head>
+  <body>
+    <!--LOGO-->
+    <section id="header">
+      <a id="logo" href="index.html">B<i class="fa-solid fa-glasses"></i>K<span>ARTS</span></a>
+      <!--NAV-->
+      <div>
+        <ul id="navbar">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="art.html">Shop</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li class="cart" id="lg-bag">
+            <a class="active" href="cart.html"><i class="fa-solid fa-basket-shopping"></i></a>
+            <div id="cartAmount">0</div>
+          </li>
+          <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+        </ul>
+      </div>
+      <div id="mobile">
+        <a href="cart.html" class="cart"
+          ><i class="fa-solid fa-basket-shopping"></i>
+          <div id="sm-cart" class="cartAmount">0</div></a>
+        <i id="bar" class="fa-solid fa-bars"></i>
+      </div>
+    </section>
+
+    <!--HEADER-->
+    <section id="cart-header">
+      <h2>Shopping</h2>
+      <h1>Cart</h1>
+      <p>Enjoy your new books</p>
+    </section>
+
+    <div class="section-p1 container">
+    <br><br><br><br>
+    <h1>Thank you! Your order has been placed.</h1>
+   <p>Check your email.</p>
+   </div>
+
+    <!--FOOTER-->
+    <footer class="footer-distributed">
+      <div class="footer-left">
+        <a id="logo" href="index.html">B<i class="fa-solid fa-glasses"></i>K<span>ARTS</span></a>
+        <p class="footer-links">
+          <a href="index.html" class="link-1">Home</a>
+          <a href="about.html">About</a>
+          <a href="art.html">Shop</a>
+        </p>
+        <div class="footer-icons">
+          <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+      </div>
+      <div class="footer-center">
+        <div>
+          <a href="https://goo.gl/maps/PRdzYzvAiVh58dAt8"
+            ><i class="fa fa-map-marker"></i>
+            <p><span>828 Broadway, 12St</span> New York, NY 10003</p></a
+          >
+        </div>
+        <div>
+          <i class="fa fa-phone"></i>
+          <p>+1 234 456 7890</p>
+        </div>
+        <div>
+          <a href="mailto:support@company.com"
+            ><i class="fa fa-envelope"></i>
+            <p>infoinfo@company.com</p></a
+          >
+        </div>
+      </div>
+      <div class="footer-right">
+        <p class="footer-company-about">
+          <span>About Us</span>
+          Our incredible range of books covers many different types of artistic expression, theory,
+          and history. You’ll certainly find something to suit your interests and maybe even
+          something to inspire a new one!<br /><br />
+        </p>
+        <p class="footer-company-name">© BookARTS 2022</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
